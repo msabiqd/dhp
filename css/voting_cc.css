@@ -1,0 +1,57 @@
+
+  .voting-cc-row {
+    padding-top: 5%;
+  }
+
+  .subtitle-voting-cc {
+    margin-left: 15%;
+    margin-right: 15%;
+    font-size : 20px;
+    color: white;
+  }
+
+  .title-voting-cc h1{
+      color: white;
+  }
+
+  .voting-button{
+    cursor: pointer;
+    width: 10%;
+    /* background-size: 30px 30px */
+  }
+
+  .text-voting-button{
+    color: white;
+  }
+
+  .title-button-voting-cc-text{
+    margin-bottom: 300px;
+    color: white;
+  }
+
+  .angka-voting-penjajah-orangsuci-pebisnis {
+    color: white;
+    display: none;
+  }
+
+  .hasil-voting-penjajah-orangsuci-pebisnis {
+    width: 50px;
+    height: 300px;
+    background-color: white;
+    margin: auto;
+    display: none;
+    border-radius: 15px 15px 0px 0px;
+    background-size: 200% 200%;
+  }
+  /* #depok-masa-chastelein {
+    background: url(images/bg-pop-up.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-image: url(../img/asets/bg-dmc.png);
+    background-position: center;
+    background-size: cover;
+    height: auto;
+
+  } */

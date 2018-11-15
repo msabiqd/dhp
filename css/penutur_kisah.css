@@ -1,0 +1,223 @@
+.penutur-kisah-row-first #bondan {
+  float: right;
+  cursor: pointer;
+}
+.penutur-kisah-row-first #faradiba {
+  display:block;
+  margin:auto;
+  cursor: pointer;
+}
+.penutur-kisah-row-first #yano {
+  float: left;
+  cursor: pointer;
+}
+.penutur-kisah-row #ferdy {
+  float: right;
+  cursor: pointer;
+}
+.penutur-kisah-row #lili {
+  display:block;
+  margin:auto;
+  cursor: pointer;
+}
+.penutur-kisah-row #titi {
+  float: left;
+  cursor: pointer;
+}
+.penutur-kisah-row #govert {
+  float: right;
+  cursor: pointer;
+}
+.penutur-kisah-row #suzana {
+  display:block;
+  margin:auto;
+  cursor: pointer;
+}
+.penutur-kisah-row #boy {
+  cursor: pointer;
+}
+.penutur-kisah-row-first {
+  padding-top: 5%;
+}
+.penutur-kisah-row {
+  padding-top: 5%;
+}
+
+#bondan-slider {
+  cursor: pointer;
+}
+#faradiba-slider {
+  cursor: pointer;
+}
+#lili-slider {
+  cursor: pointer;
+}
+#titi-slider {
+  cursor: pointer;
+}
+#boy-slider {
+  cursor: pointer;
+}
+#yano-slider {
+  cursor: pointer;
+}
+#ferdy-slider {
+  cursor: pointer;
+}
+#suzana-slider {
+  cursor: pointer;
+}
+#govert-slider {
+  cursor: pointer;
+}
+
+.subtitle-penutur-kisah p {
+  margin-left: 15%;
+  margin-right: 15%;
+  font-size : 20px;
+}
+
+ /* The Modal (background) */
+ .modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content-penutur-kisah {
+  background-color: #fefefe;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 75%; /* Could be more or less, depending on screen size */
+  margin-top: 100px;
+  background-image: url("../img/asets/penutur_kisah/bg-pop-up.png");
+  background-size: contain;
+  background-size: cover;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 410.4px;
+  width: 800px;
+}
+.modal-content-penutur-kisah .row-top {
+  padding-top: 5%;
+}
+.modal-content-penutur-kisah .modal-desc-content {
+  text-align: justify;
+}
+.modal-content-penutur-kisah .modal-desc-title {
+  margin-top:2%;
+  text-align: left;
+  font-size:200%;
+}
+.modal-content-penutur-kisah p {
+  color: white;
+}
+
+/* The Close Button */
+.close {
+  color: white;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+.col-6 .col-md-4 {
+  padding: 0px;
+}
+.row {
+  margin: 0px;
+}
+.penutur-kisah-section {
+  background-attachment: fixed;
+}
+.penutur-kisah-section {
+	width: 100%;
+	display: flex;
+	height: 100vh;
+	padding: 120px 0px 120px 0px;
+}
+
+#penutur-kisah-1 {
+  background: url(images/bg.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-image: url(../img/asets/penutur_kisah/background.png);
+  background-position: center;
+  background-size: cover;
+  height: auto;
+  overflow: hidden;
+
+}
+
+.multi-item-carousel .carousel-inner > .item {
+  transition: 500ms ease-in-out left;
+}
+
+.multi-item-carousel .carousel-inner > .next {
+  left: 33%;
+}
+
+.multi-item-carousel .carousel-inner > .prev {
+  left: -33%;
+}
+
+.multi-item-carousel .carousel-inner .active .left .right{
+  left:-33%;
+}
+.multi-item-carousel .carousel-inner .active .left .right{
+  right:33%;
+}
+/* .multi-item-carousel{
+  .carousel-inner{
+    > .item{
+      transition: 500ms ease-in-out left;
+    }
+    .active{
+      &.left{
+        left:-33%;
+      }
+      &.right{
+        left:33%;
+      }
+    }
+    .next{
+      left: 33%;
+    }
+    .prev{
+      left: -33%;
+    }
+    @media all and (transform-3d), (-webkit-transform-3d) {
+      > .item{
+        // use your favourite prefixer here
+        transition: 500ms ease-in-out left;
+        transition: 500ms ease-in-out all;
+        backface-visibility: visible;
+        transform: none!important;
+      }
+    }
+  }
+  .carouse-control{
+    &.left, &.right{
+      background-image: none;
+    }
+  }
+} */
+
